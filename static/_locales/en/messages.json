@@ -1,0 +1,68 @@
+{
+	"extName": {
+		"message": "fullsnap"
+	},
+	"extDescription": {
+		"message": "Captures the whole page, top to bottom, as one image. Save as PNG, JPG or PDF."
+	},
+	"actionTitle": {
+		"message": "Capture the whole page"
+	},
+	"cannotCapture": {
+		"message": "This page can't be captured. Browser pages and the extension store don't allow it."
+	},
+	"savePng": {
+		"message": "Save PNG"
+	},
+	"saveJpg": {
+		"message": "Save JPG"
+	},
+	"savePdf": {
+		"message": "Save PDF"
+	},
+	"copy": {
+		"message": "Copy"
+	},
+	"stitching": {
+		"message": "Putting the page together…"
+	},
+	"missing": {
+		"message": "This capture is no longer stored. Capture the page again."
+	},
+	"facts": {
+		"message": "$W$ × $H$ px, from $HOST$",
+		"placeholders": {
+			"w": {
+				"content": "$1"
+			},
+			"h": {
+				"content": "$2"
+			},
+			"host": {
+				"content": "$3"
+			}
+		}
+	},
+	"split": {
+		"message": "The page is too tall for one image, so it is split into $N$ parts.",
+		"placeholders": {
+			"n": {
+				"content": "$1"
+			}
+		}
+	},
+	"saved": {
+		"message": "Saved to Downloads"
+	},
+	"copied": {
+		"message": "Copied"
+	},
+	"failed": {
+		"message": "That didn't work: $ERROR$",
+		"placeholders": {
+			"error": {
+				"content": "$1"
+			}
+		}
+	}
+}

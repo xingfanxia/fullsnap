@@ -1,0 +1,68 @@
+{
+	"extName": {
+		"message": "fullsnap"
+	},
+	"extDescription": {
+		"message": "从上到下把整个页面截成一张图，可存为 PNG、JPG 或 PDF。"
+	},
+	"actionTitle": {
+		"message": "截取整个页面"
+	},
+	"cannotCapture": {
+		"message": "这个页面无法截取。浏览器内置页面和扩展商店不允许截图。"
+	},
+	"savePng": {
+		"message": "存为 PNG"
+	},
+	"saveJpg": {
+		"message": "存为 JPG"
+	},
+	"savePdf": {
+		"message": "存为 PDF"
+	},
+	"copy": {
+		"message": "复制"
+	},
+	"stitching": {
+		"message": "正在拼接页面…"
+	},
+	"missing": {
+		"message": "这次截图已不在存储中，请重新截取。"
+	},
+	"facts": {
+		"message": "$W$ × $H$ 像素，来自 $HOST$",
+		"placeholders": {
+			"w": {
+				"content": "$1"
+			},
+			"h": {
+				"content": "$2"
+			},
+			"host": {
+				"content": "$3"
+			}
+		}
+	},
+	"split": {
+		"message": "页面太高，无法放进一张图，已拆成 $N$ 部分。",
+		"placeholders": {
+			"n": {
+				"content": "$1"
+			}
+		}
+	},
+	"saved": {
+		"message": "已存入下载目录"
+	},
+	"copied": {
+		"message": "已复制"
+	},
+	"failed": {
+		"message": "操作失败：$ERROR$",
+		"placeholders": {
+			"error": {
+				"content": "$1"
+			}
+		}
+	}
+}

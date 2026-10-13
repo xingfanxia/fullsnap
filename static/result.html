@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>fullsnap</title>
+	<link rel="stylesheet" href="result.css">
+</head>
+<body>
+	<header>
+		<div class="about">
+			<h1 id="title" data-testid="title"></h1>
+			<p id="facts" data-testid="facts"></p>
+		</div>
+		<div class="tools">
+			<button id="png" data-testid="save-png" class="primary"></button>
+			<button id="jpg" data-testid="save-jpg"></button>
+			<button id="pdf" data-testid="save-pdf"></button>
+			<button id="copy" data-testid="copy"></button>
+		</div>
+	</header>
+	<p id="note" data-testid="note" role="status"></p>
+	<main id="sheet" data-testid="sheet"></main>
+	<script type="module" src="result.js"></script>
+</body>
+</html>
